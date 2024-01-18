@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalkulator Luas Persegi</title>
+    <script src="hitung.js" defer></script>
+    <link rel="stylesheet" href="css/desain.css" />
+  </head>
+  <body>
+    <div class="kotak" ,>
+      <h1>SELAMAT DATANG DI KALKULATOR MATEMATIK</h1>
+    </div>
+
+    <div class="kotak-besar">
+      <h2>Web kalkulator untuk menghitung Luas dan Keliling Persegi</h2>
+      <h3>Rumus menghitung luas dan keliling persegi sebagai berikut :</h3>
+      <img src="rumus luas.jpg" width="20%" />
+    </div>
+
+    <div id="container1">
+      <h2>Kalkulator Luas Persegi</h2>
+      <label for="sideLength1">Panjang Sisi:</label>
+      <input type="number" id="sideLength1" placeholder="Masukkan panjang sisi" />
+
+      <button onclick="hitungLuas()">Hitung Luas</button>
+
+      <div id="result1"></div>
+    </div>
+
+    <div id="container2">
+      <h2>Kalkulator Keliling Persegi</h2>
+      <label for="sideLength2">Panjang Sisi:</label>
+      <input type="number" id="sideLength2" placeholder="Masukkan panjang sisi" />
+
+      <button onclick="hitungKeliling()">Hitung Keliling</button>
+
+      <div id="result2"></div>
+    </div>
+
+    <script>
+      // JavaScript untuk menghitung luas persegi
+      function hitungLuas() {
+        // Mendapatkan nilai panjang sisi dari input
+        var sideLength1 = document.getElementById("sideLength1").value;
+
+        // Menghitung luas persegi
+        var luas = sideLength1 * sideLength1;
+
+        // Menampilkan hasil pada elemen dengan id "result"
+        document.getElementById("result1").innerHTML = "Luas Persegi: " + luas;
+      }
+      function hitungKeliling() {
+        // Mendapatkan nilai panjang sisi dari input
+        var sideLength2 = document.getElementById("sideLength2").value;
+
+        // Menghitung luas persegi
+        var keliling = 4 * sideLength2;
+
+        // Menampilkan hasil pada elemen dengan id "result"
+        document.getElementById("result2").innerHTML = "Keliling Persegi: " + keliling;
+      }
+    </script>
+  </body>
+</html>

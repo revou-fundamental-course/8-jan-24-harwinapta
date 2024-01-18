@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+#container1 {
+  /* margin: auto; */
+  margin-left: 300px;
+  margin-top: 10px;
+  /* width: 300px; */
+  text-align: center;
+  border: 2px solid #333; /* Warna dan ketebalan border */
+  padding: 20px; /* Jarak antara border dan kontennya */
+  background-color: beige;
+  float: left;
+}
+
+#container {
+  background-color: beige;
+  text-align: center;
+  padding: 20px;
+  width: 200px;
+  height: 200px;
+  border: 2px solid #333;
+  margin: 10px;
+  float: left;
+}
+
+#container2 {
+  /* margin: auto; */
+  margin-left: 10px;
+  margin-top: 10px;
+  /* width: 300px; */
+  text-align: center;
+  border: 2px solid #333; /* Warna dan ketebalan border */
+  padding: 20px; /* Jarak antara border dan kontennya */
+  text-align: center; /* Posisi teks di tengah */
+  background-color: beige;
+  float: left;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #af614ca4;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#result1 {
+  margin-top: 10px;
+}
+#result2 {
+  margin-top: 10px;
+}
+
+.kotak {
+  margin-bottom: 10px;
+  border: 2px solid #333; /* Warna dan ketebalan border */
+  padding: 20px; /* Jarak antara border dan kontennya */
+  text-align: center; /* Posisi teks di tengah */
+  background-color: beige;
+}
+
+.kotak-besar {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 2px solid #555; /* Warna dan ketebalan border */
+  background-color: #ddd; /* Warna latar belakang */
+  text-align: center;
+  vertical-align: text-top;
+}
